@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "https://example.com",
+            "runtimeArgs": [
+                "--load-extension=//wsl.localhost/Ubuntu-20.04/home/tbistr_wsl/my_project/twice"
+            ],
+            "runtimeExecutable": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+        }
+    ]
+}
