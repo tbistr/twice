@@ -7,7 +7,7 @@
             "name": "Launch Chrome",
             "url": "https://example.com",
             "runtimeArgs": [
-                "--load-extension=//wsl.localhost/Ubuntu-20.04/home/tbistr_wsl/my_project/twice"
+                "--load-extension=${workspaceFolder}"
             ],
             "runtimeExecutable": "C:/Program Files/Google/Chrome/Application/chrome.exe",
         }
